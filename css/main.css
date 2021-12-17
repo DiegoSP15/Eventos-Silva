@@ -1,0 +1,179 @@
+body {
+  background-color: #121212;
+}
+
+.nav {
+  grid-area: nav;
+  justify-content: space;
+  text-align: center;
+  text-decoration: none;
+  align-self: center;
+}
+.nav ul {
+  display: flex;
+  font-family: "Rancho";
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 40px;
+  color: white;
+}
+.nav ul a {
+  color: white;
+  text-decoration: none;
+}
+.nav ul a:hover {
+  color: #28ce07;
+}
+
+.logo {
+  position: relative;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  grid-area: logo;
+}
+.logo img {
+  width: 200px;
+  height: 150px;
+}
+
+.containernosotros2 {
+  height: 150px;
+  background-image: url(../imagenes/nav1.jpg);
+  background-size: 100%;
+  background-position-x: 29%;
+  background-position-y: 50%;
+  display: grid;
+  grid-template-columns: 15% 35% 50%;
+  grid-template-rows: 150px;
+  grid-template-areas: "logo nav nav";
+}
+
+.contentequip {
+  display: grid;
+  grid-template-columns: 13% 14% 14% 14% 14% 14% 13%;
+  grid-template-rows: 20% 40% 30% 20%;
+  gap: 10px;
+}
+
+.contentequip img {
+  width: 250px;
+  height: 300px;
+}
+
+.cindiimg {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.edwardimg {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.rosaimg {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.elberimg {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.deboraimg {
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.cindi {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  font-family: "Rancho";
+}
+
+.cindi {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  font-family: "Rancho";
+}
+
+.edward {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  font-family: "Rancho";
+}
+
+.rosa {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  font-family: "Rancho";
+}
+
+.elber {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  font-family: "Rancho";
+}
+
+.debora {
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  font-family: "Rancho";
+}
+
+.nosotroscont {
+  padding: 15px;
+  justify-self: center;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  font-family: "Rancho";
+  grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+/*# sourceMappingURL=main.css.map */
