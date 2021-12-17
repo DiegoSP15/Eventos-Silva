@@ -1,4 +1,8 @@
 
+$texto:"rancho";
+$tamano_subs:20px;
+$color_text: white;
+
 
 
 body{
@@ -14,16 +18,16 @@ body{
 
     ul{
         display: flex;
-        font-family: 'Rancho';
+        font-family: $texto;
         list-style: none;
         flex-direction: row;
         justify-content: space-evenly;
         font-size: 40px;
-        color: white;
+        color: $color_text;
 
 
         a{
-            color: white;
+            color: $color_text;
             text-decoration: none;
 
 
@@ -118,9 +122,9 @@ background-position-y: 50%;
     grid-row-end:4;
 
     text-align: left;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    font-family: 'Rancho';
+    font-size: $tamano_subs;
+    color: $color_text;
+    font-family: $texto;
 }
 
 .cindi{
@@ -130,9 +134,9 @@ background-position-y: 50%;
     grid-row-end:4;
 
     text-align: left;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    font-family: 'Rancho';
+    font-size: $tamano_subs;
+    color: $color_text;
+    font-family: $texto;
 }
 
 .edward{
@@ -142,9 +146,9 @@ background-position-y: 50%;
     grid-row-end:4;
 
     text-align: left;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    font-family: 'Rancho';
+    font-size: $tamano_subs;
+    color: $color_text;
+    font-family: $texto;
 }
 .rosa{
     grid-column-start: 4;
@@ -153,9 +157,9 @@ background-position-y: 50%;
     grid-row-end:4;
 
     text-align: left;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    font-family: 'Rancho';
+    font-size:$tamano_subs;
+    color: $color_text;
+    font-family: $texto;
 }
 .elber{
     grid-column-start: 5;
@@ -164,9 +168,9 @@ background-position-y: 50%;
     grid-row-end:4;
 
     text-align: left;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    font-family: 'Rancho';
+    font-size: $tamano_subs;
+    color: $color_text;
+    font-family: $texto;
 }
 .debora{
     grid-column-start: 6;
@@ -175,9 +179,9 @@ background-position-y: 50%;
     grid-row-end:4;
 
     text-align: left;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    font-family: 'Rancho';
+    font-size: $tamano_subs;
+    color: $color_text;
+    font-family: $texto;
 }
 
 .nosotroscont{
@@ -186,8 +190,8 @@ background-position-y: 50%;
 
     text-align: center;
     font-size: 25px;
-    color: rgb(255, 255, 255);
-    font-family: 'Rancho';
+    color: $color_text;
+    font-family: $texto;
 
     grid-column-start: 1;
     grid-column-end: 8;

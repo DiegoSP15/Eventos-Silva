@@ -11,7 +11,7 @@ body {
 }
 .nav ul {
   display: flex;
-  font-family: "Rancho";
+  font-family: "rancho";
   list-style: none;
   flex-direction: row;
   justify-content: space-evenly;
@@ -105,7 +105,7 @@ body {
   text-align: left;
   font-size: 20px;
   color: white;
-  font-family: "Rancho";
+  font-family: "rancho";
 }
 
 .cindi {
@@ -116,7 +116,7 @@ body {
   text-align: left;
   font-size: 20px;
   color: white;
-  font-family: "Rancho";
+  font-family: "rancho";
 }
 
 .edward {
@@ -127,7 +127,7 @@ body {
   text-align: left;
   font-size: 20px;
   color: white;
-  font-family: "Rancho";
+  font-family: "rancho";
 }
 
 .rosa {
@@ -138,7 +138,7 @@ body {
   text-align: left;
   font-size: 20px;
   color: white;
-  font-family: "Rancho";
+  font-family: "rancho";
 }
 
 .elber {
@@ -149,7 +149,7 @@ body {
   text-align: left;
   font-size: 20px;
   color: white;
-  font-family: "Rancho";
+  font-family: "rancho";
 }
 
 .debora {
@@ -160,7 +160,7 @@ body {
   text-align: left;
   font-size: 20px;
   color: white;
-  font-family: "Rancho";
+  font-family: "rancho";
 }
 
 .nosotroscont {
@@ -169,7 +169,7 @@ body {
   text-align: center;
   font-size: 25px;
   color: white;
-  font-family: "Rancho";
+  font-family: "rancho";
   grid-column-start: 1;
   grid-column-end: 8;
   grid-row-start: 1;
